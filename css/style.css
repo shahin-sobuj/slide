@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    margin-top: 100px;
+    font-weight: 900;
+    position: relative;
+    text-align: left;
+    padding-bottom: 10px;
+}
+h2::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #14ADF3;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+h2::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: #d6d4d4;
+    bottom: 0;
+    left: 20px;
+    z-index: 0;
+    border-radius: 10px;
+}
+span p{
+    color: #cccccc;
+    text-align: left;
+    font-size: 14px;
+}
+img{
+    width: 200px !important;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+h4{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+small p{
+    text-align: center;
+    color: #838383;
+}
+p{
+    text-align: center;
+}
+.row{
+    position: relative;
+}
+.owl-nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.owl-nav .owl-prev span{
+    padding: 10px 20px !important;
+    margin: 5px;
+    background-color: #14ADF3;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.owl-nav .owl-next span{
+    padding: 10px 20px !important;
+    margin: 5px;
+    background-color: #14ADF3;
+    color: #ffffff;
+    border-radius: 10px;
+}
